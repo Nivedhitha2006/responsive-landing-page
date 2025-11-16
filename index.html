@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeCraft — Design. Build. Inspire.</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">CodeCraft</div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#features">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="menu-toggle">&#9776;</div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Design. Build. Inspire.</h1>
+      <p>I'm a passionate developer who crafts interactive and responsive web experiences that impress recruiters and users alike.</p>
+      <a href="#projects" class="cta-btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>My Expertise</h2>
+    <div class="features-container">
+      <div class="feature-card">
+        <h3>💡 Front-End Development</h3>
+        <p>Building responsive, user-focused designs with HTML, CSS, and JavaScript that look great on all devices.</p>
+      </div>
+      <div class="feature-card">
+        <h3>⚙️ Back-End Integration</h3>
+        <p>Creating smooth data connections and scalable APIs to power intelligent applications.</p>
+      </div>
+      <div class="feature-card">
+        <h3>🚀 UI/UX Optimization</h3>
+        <p>Enhancing user experience with elegant layouts, transitions, and design principles.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Highlighted Projects</h2>
+    <div class="project-gallery">
+      <div class="project">
+        <img src="https://picsum.photos/400/250?random=1" alt="Project 1">
+        <h3>Language Learning App</h3>
+      </div>
+      <div class="project">
+        <img src="https://picsum.photos/400/250?random=2" alt="Project 2">
+        <h3>AI-Based Stress Detection</h3>
+      </div>
+      <div class="project">
+        <img src="https://picsum.photos/400/250?random=3" alt="Project 3">
+        <h3>Smart Pollution Monitor</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="footer-content">
+      <p>Connect with me</p>
+      <div class="social-links">
+        <a href="#">🌐</a>
+        <a href="#">🐦</a>
+        <a href="#">📘</a>
+        <a href="#">📸</a>
+      </div>
+      <p>© 2025 CodeCraft. Built with ❤️ by Nivedhitha.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Responsive nav toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
